@@ -1,0 +1,26 @@
+html{
+    margin:0;
+    padding:0;
+  }
+  /* Container */
+  .main{
+    display:flex;
+    text-align:left;
+  }
+  
+    .speech {
+      border: 1px solid #ddd;
+      width: 300px;
+      padding: 0;
+      margin: 0;
+    }
+    .speech input {
+      border: 0;
+      width: 240px;
+      display: inline-block;
+      height: 30px;
+    }
+    .speech img {
+      float: right;
+      width: 40px;
+    }
