@@ -31,7 +31,7 @@ html{
 }
 
 .search:hover > .search-txt{
-  width: 800px;
+  width: 420px;
   padding: 0 10px;
   color: white;
   font-family: 'Pangolin', cursive;
