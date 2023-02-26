@@ -20,44 +20,48 @@ body {
   border-width: 20px;
   border-color: black;
 }
-.search-btn {
+.search-btn{
   color: red;
   float: right;
-  width: 40px;
-  height: 40px;
+  width: 8vh;
+  height: 8vh;
   border-radius: 50%;
-  background: #c4ced8;
+  background:#c4ced8 ;
   display: flex;
+  margin-top: vh;
   justify-content: center;
   align-items: center;
+
+  margin: 1vh;
 }
 
-.search-txt {
+.search-txt{
   border-style: solid;
   border: solid;
   background: none;
   outline: none;
   float: left;
   padding: 10px;
-  color: wheat;
+  color:rgb(50, 34, 3);
   font-size: 25px;
   transition: ease 0.3s;
   line-height: 60px;
   width: 400px;
-  font-family: "Pangolin", cursive;
-  border-radius: 4px;
+  font-family: 'Pangolin', cursive;
+  border-radius: 60px;
   border-width: 2px;
   border-color: black;
 }
-.fas fa-search {
+.fas fa-search{
   font-weight: 200;
   font-size: 50px;
 }
 
+
 .abc {
   box-sizing: content-box;
   margin: 10px;
-  margin-top: 110px;
+  margin-top: 30px;
   padding: 10px;
   width: 57%;
   height: 900px;
@@ -66,9 +70,6 @@ body {
 .def {
   box-sizing: content-box;
   position: fixed;
-  margin: 10px;
-  margin-top: 110px;
-  padding: 10px;
   width: 37%;
   height: 600px;
   display: inline-block;
